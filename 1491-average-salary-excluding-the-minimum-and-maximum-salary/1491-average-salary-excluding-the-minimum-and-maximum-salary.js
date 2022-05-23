@@ -11,7 +11,6 @@ var average = function(salary) {
       if(max < salary[i]) {
         max = salary[i];
       }
-      
       if(min > salary[i]) {
         min  = salary[i];
       }
@@ -22,6 +21,8 @@ var average = function(salary) {
         sum+=salary[i];
       }
     }
+  
+
   
   return sum / (salary.length - 2)
   
