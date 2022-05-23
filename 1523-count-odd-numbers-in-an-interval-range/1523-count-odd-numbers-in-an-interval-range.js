@@ -4,7 +4,6 @@
  * @return {number}
  */
 var countOdds = function(low, high) {
-   // var len = (high - low) + 1;
   var count = 0;
   
   for(let i = low; i<= high; i++) {
