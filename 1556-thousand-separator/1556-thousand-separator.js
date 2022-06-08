@@ -10,9 +10,9 @@ var thousandSeparator = function(n) {
   }
   
   
-  console.log(len % 3)
+ // console.log(len % 3)
   
-  var point = len % 3;
+ // var point = len % 3;
   var arr = n.toString().split('');
   var arr1=[];
   
