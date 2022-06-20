@@ -14,22 +14,16 @@ var firstPalindrome = function(words) {
     var countTrue = 0;
     
     for(let a = 0; a < aLen; a++) {
-     // console.log(words[i][a])
       if(words[i][a] == words[i][wLen-a]){
           countTrue += 1;
 
       }
     }
     
-    
-    console.log(aLen)
-    
-    
     if(aLen == countTrue) {
       IsFound = true;
       return words[i];
     }
-    
   }
   
   if(IsFound == false) {
