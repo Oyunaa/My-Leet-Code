@@ -6,7 +6,7 @@ var maxProfit = function(prices) {
   var profitMax = 0;
   var minPrice = prices[0];
   
-  prices.map((a, index)=>{
+  prices.map(a=>{
     
     if(a < minPrice) {
       minPrice = a;
