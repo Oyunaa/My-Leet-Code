@@ -10,7 +10,9 @@ var sum = nums[0];
   nums.map((a,index)=>{
     if(index > 0) {
       cur = Math.max(a, cur + a);
-      sum = cur > sum ? cur : sum;
+      if(cur > sum) sum = cur;
+      
+    
     }
   })
 
