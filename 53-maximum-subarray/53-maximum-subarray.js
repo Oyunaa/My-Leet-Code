@@ -5,7 +5,7 @@
 var maxSubArray = function(nums) {
     
 
-if (nums.length == 1)  return nums[0];
+//if (nums.length == 1)  return nums[0];
 
   
 var cur = nums[0];
