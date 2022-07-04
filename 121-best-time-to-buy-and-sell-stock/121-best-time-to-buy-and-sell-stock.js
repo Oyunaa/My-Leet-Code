@@ -8,11 +8,8 @@ var maxProfit = function(prices) {
   
   prices.map(a=>{
     
-    if(a < minPrice) {
-      minPrice = a;
-    }
+      minPrice = Math.min(a, minPrice);
     var b = a - minPrice;
-    
     if(b > profitMax) {
       profitMax = b;
     }
