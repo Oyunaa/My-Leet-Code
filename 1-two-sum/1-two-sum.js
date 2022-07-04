@@ -16,6 +16,21 @@ var twoSum = function(nums, target) {
         }
     }
   
-   
+//    // initialValue = nums[0];
+//   var cur = nums[0];
+//   var b = 0;
+  
+//     nums.map((a,i)=>{
+//       if(target - cur == a && i > b) {
+//         retArray.push(b); 
+//         retArray.push(i);
+        
+        
+//       }
+//       cur = a;
+//       b = i;
+      
+//     })  
+  
     return retArray;
 };
