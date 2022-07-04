@@ -12,9 +12,10 @@ var twoSum = function(nums, target) {
         for(i=0; i<= nums.length; i++){
             if(target-nums[initialValue] == nums[i] && a!=i){
                 retArray.push(initialValue); 
-                //retArray.push();
             }
         }
     }
+  
+   
     return retArray;
 };
