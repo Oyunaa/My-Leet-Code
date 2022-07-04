@@ -13,7 +13,6 @@ var sum = nums[0];
       if(cur > sum) {
         sum = cur;
       }
-    
     }
   })
 
