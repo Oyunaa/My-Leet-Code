@@ -13,7 +13,7 @@ var sum = nums[0];
   
   nums.map((a,index)=>{
     if(index > 0) {
-      cur = Math.max(Number(a), Number(cur) + Number(a));
+      cur = Math.max((a), (cur) + (a));
       if(cur > sum) {
         sum = cur;
       }
