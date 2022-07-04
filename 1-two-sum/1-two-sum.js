@@ -5,14 +5,14 @@
  */
 var twoSum = function(nums, target) {
     
-    for(a=0; a< nums.length; a++){
-        for(i=a+1; i< nums.length; i++){
-            if(target == nums[i] + nums[a]){
-                return [a, i]
-            }
-        }
+  const previousValues = {}
+  for (let i = 0; i < nums.length; i++) {
+    const currentValue = nums[i]
+    const neededValue = target - currentValue
+    if (previousValues[neededValue] != null) {
+      return [previousValues[neededValue], i]
+    } else {
+      previousValues[currentValue] = i
     }
-  
-  
-    return retArray;
+  }
 };
