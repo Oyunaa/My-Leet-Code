@@ -20,7 +20,7 @@ var evaluateTree = function(root) {
     return evaluateTree(root.left) || evaluateTree(root.right)
   }
   
-  if(root.val == 3) {
+ // if(root.val == 3) {
     return evaluateTree(root.left) && evaluateTree(root.right)
-  }
+  //}
 };
