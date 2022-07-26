@@ -5,9 +5,9 @@
  */
 var findTheDifference = function(s, t) {
   
-  if(s==""){
-    return t;
-  }
+  // if(s==""){
+  //   return t;
+  // }
   let arr = t.split('');
   
   for(char of s) {
