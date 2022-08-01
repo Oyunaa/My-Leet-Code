@@ -12,10 +12,18 @@ console.log(arr);
     
 function findDuplicate(a) {
     let arr = [];
-    for (let i = 0; i < a.length; i++) {
+    
+ for (let i = 0; i < a.length; i++) {
       if (a.includes(a[i], i + 1)) {
         !arr.includes(a[i]) && arr.push(a[i]);
       }
     }
+ 
+//   a.filter((item, index) => {
+//       if (a.indexOf(item) !== index) {
+//         !arr.includes(item) && arr.push(item);
+//       }
+//     });
+ 
     return arr;
   }
